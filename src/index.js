@@ -1,0 +1,1 @@
+alert("Start of the program editing process!");
