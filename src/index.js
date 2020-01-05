@@ -1,1 +1,1 @@
-alert("Start of the program editing process!");
+console.log("Start of the program editing process!");

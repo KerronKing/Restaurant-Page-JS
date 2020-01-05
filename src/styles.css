@@ -1,0 +1,30 @@
+body {
+  background-image: url(/src/assets/patrick-schneider-5xltWMpkN3E-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+nav ul {
+  /* border: 2px solid white; */
+  list-style: none;
+  text-align: center;
+}
+.logo {
+  font-size: 1.8rem;
+  position: relative;
+  right: 12%;
+}
+li { 
+  color: rgba(255, 255, 255, 0.5);
+  display: inline;
+  font-family: cursive;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 2.5%;
+}
+li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  transition: 0.5s;
+}
