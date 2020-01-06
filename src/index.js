@@ -3,6 +3,7 @@ import { defaultContent } from "./default.js";
 import { aboutTab } from "./about.js";
 import { contactTab } from "./contact.js";
 import { menuTab } from "./menu.js";
+import { reserveTab } from "./reservations.js";
 
 nav.render();
 defaultContent.render();
@@ -21,5 +22,10 @@ menu.addEventListener('click', () => {
   menuTab.render();
 })
 const reserve = document.getElementById('reserve');
-const locations = document.getElementById('locations');
-
+reserve.addEventListener('click', () => {
+  reserveTab.render();
+})
+// const locations = document.getElementById('locations');
+// locations.addEventListener('click', () => {
+//   locationsTab.render();
+// })
