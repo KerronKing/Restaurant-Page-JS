@@ -73,7 +73,8 @@ ul {
   font-size: 5rem;
   top: 40% 
 }
-.reserve-info { top: 20%; }
+.reserve-info {top: 25%;}
+.location-info {top: 25%}
 input {
   border-radius: 5px;
   bottom: 0.2rem;
@@ -106,4 +107,5 @@ button {
   float: left;
   width: 33%;
 }
-.food li { padding-bottom: 1rem; }
+.food li {padding-bottom: 1rem;}
+.opening {font-size: 2rem;}
