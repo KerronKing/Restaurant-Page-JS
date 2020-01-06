@@ -1,4 +1,4 @@
-export const locationsTab = (() => {
+const locationsTab = (() => {
   const render = () => {
     const content = document.getElementById('content');
     content.firstChild.remove();
@@ -19,6 +19,7 @@ export const locationsTab = (() => {
     hours.textContent = 'Mon - Sat: 11AM - 10PM';
     locationInfo.appendChild(hours);
     content.appendChild(locationInfo);
-  }
+  };
   return { render };
 })();
+export default locationsTab;

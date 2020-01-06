@@ -1,4 +1,4 @@
-export const contactTab = (() => {
+const contactTab = (() => {
   const render = () => {
     const content = document.getElementById('content');
     content.firstChild.remove();
@@ -40,6 +40,7 @@ export const contactTab = (() => {
     form.appendChild(submit);
     contactSection.appendChild(form);
     content.appendChild(contactSection);
-  }
+  };
   return { render };
 })();
+export default contactTab;

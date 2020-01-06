@@ -1,4 +1,4 @@
-export const menuTab = (() => {
+const menuTab = (() => {
   const render = () => {
     const content = document.getElementById('content');
     content.firstChild.remove();
@@ -50,6 +50,7 @@ export const menuTab = (() => {
     desserts.appendChild(thirdList);
     menuInfo.appendChild(desserts);
     content.appendChild(menuInfo);
-  }
+  };
   return { render };
 })();
+export default menuTab;

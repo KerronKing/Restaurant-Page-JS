@@ -1,4 +1,4 @@
-export const nav = (() => {
+const nav = (() => {
   const render = () => {
     const nav = document.createElement('NAV');
     nav.id = "main-nav";
@@ -32,7 +32,7 @@ export const nav = (() => {
     locations.textContent = "Locations";
     tabs.appendChild(locations);
     document.body.prepend(nav);
-  }
-  
+  };
   return { render };
 })();
+export default nav;

@@ -1,4 +1,4 @@
-export const reserveTab = (() => {
+const reserveTab = (() => {
   const render = () => {
     const content = document.getElementById('content');
     content.firstChild.remove();
@@ -40,6 +40,7 @@ export const reserveTab = (() => {
     form.appendChild(submit);
     reservationSection.appendChild(form);
     content.appendChild(reservationSection);
-  }
+  };
   return { render };
 })();
+export default reserveTab;
