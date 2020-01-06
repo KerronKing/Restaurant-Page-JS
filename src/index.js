@@ -1,10 +1,10 @@
-import nav from "./nav";
-import defaultContent from "./default";
-import aboutTab from "./about";
-import contactTab from "./contact";
-import menuTab from "./menu";
-import reserveTab from "./reservations";
-import locationsTab from "./locations";
+import nav from './nav';
+import defaultContent from './default';
+import aboutTab from './about';
+import contactTab from './contact';
+import menuTab from './menu';
+import reserveTab from './reservations';
+import locationsTab from './locations';
 
 nav.render();
 defaultContent.render();
