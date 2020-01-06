@@ -1,9 +1,7 @@
 export const aboutTab = (() => {
   const render = () => {
     const content = document.getElementById('content');
-    if (content.firstChild !== null) {
-      content.firstChild.remove();
-    }
+    content.firstChild.remove();
     const aboutInfo = document.createElement('DIV');
     aboutInfo.classList.add('info');
     aboutInfo.classList.add('about-info');

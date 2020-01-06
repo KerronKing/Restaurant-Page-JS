@@ -1,9 +1,11 @@
 import { nav } from "./nav.js";
+import { defaultContent } from "./default.js";
 import { aboutTab } from "./about.js";
 import { contactTab } from "./contact.js";
 import { menuTab } from "./menu.js";
 
 nav.render();
+defaultContent.render();
 
 const content = document.getElementById('content');
 const about = document.getElementById('about');

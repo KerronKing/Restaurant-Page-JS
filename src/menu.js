@@ -1,6 +1,7 @@
 export const menuTab = (() => {
   const render = () => {
     const content = document.getElementById('content');
+    content.firstChild.remove();
     const menuInfo = document.createElement('DIV');
     menuInfo.classList.add('info');
     menuInfo.classList.add('menu-info');

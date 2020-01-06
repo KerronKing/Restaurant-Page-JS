@@ -47,7 +47,7 @@ ul {
 .info {
   -webkit-animation-duration: 10s;
   -webkit-animation-name: content;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-name: content;
   border: 2px solid white;
   color: white;
@@ -57,11 +57,20 @@ ul {
   left: 20%;
   padding: 5%;
   text-align: center;
-  width: 50%;
+  width: 60%;
 }
 .about-info { top: 40%; }
 .contact-info { top: 30%; }
-.menu-info { top: 20%; }
+.menu-info {
+  padding-bottom: 1%;
+  padding-top: 1%;
+  top: 10%; 
+}
+.original-info { 
+  border: none !important;
+  font-size: 5rem;
+  top: 40% 
+}
 input {
   background-color: transparent;
   border: 1px solid white;
