@@ -9,7 +9,6 @@ import { locationsTab } from "./locations.js";
 nav.render();
 defaultContent.render();
 
-const content = document.getElementById('content');
 const about = document.getElementById('about');
 about.addEventListener('click', () => {
   aboutTab.render()
