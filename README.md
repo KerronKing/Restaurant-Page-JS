@@ -4,7 +4,7 @@ The aim of this project was to design and build a restaurant home page using ES 
 
 ### Live Link
 
-To see the live version of the page, click [here]().
+To see the live version of the page, click [here](https://rawcdn.githack.com/KerronKing/Restaurant-Page-JS/99bf03c62c9652e670c10702074443258509ae3f/dist/index.html).
 
 ### How to Use
 
