@@ -6,6 +6,7 @@ export const contactTab = (() => {
     }
     const contactSection = document.createElement('DIV');
     contactSection.classList.add('info');
+    contactSection.classList.add('contact-info');
     const contactInfo = document.createElement('P');
     contactSection.appendChild(contactInfo);
     contactInfo.textContent = 'Send us a message!';

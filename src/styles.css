@@ -57,9 +57,10 @@ li:hover {
   left: 20%;
   padding: 5%;
   text-align: center;
-  top: 40%;
   width: 50%;
 }
+.about-info { top: 40%; }
+.contact-info { top: 30%; }
 input {
   background-color: transparent;
   border: 1px solid white;
