@@ -1,1 +1,3 @@
-console.log("Start of the program editing process!");
+import { nav } from "./nav.js";
+
+nav.render();

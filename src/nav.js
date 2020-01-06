@@ -4,6 +4,7 @@ export const nav = (() => {
     nav.id = "main-nav";
     const logo = document.createElement('DIV');
     logo.classList.add('logo');
+    logo.textContent = "KHE";
     const tabs = document.createElement('DIV');
     tabs.id = "tabs";
     nav.appendChild(logo);
@@ -25,6 +26,7 @@ export const nav = (() => {
     const locations = document.createElement('LI');
     locations.textContent = "Locations";
     tabs.appendChild(locations);
+    document.body.prepend(nav);
   }
   
   return { render };
