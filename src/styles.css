@@ -27,7 +27,7 @@ ul {
   list-style: none;
   text-align: center;
 }
-li { 
+#main-nav li { 
   color: rgba(255, 255, 255, 0.5);
   display: inline;
   font-family: cursive;
@@ -35,7 +35,7 @@ li {
   font-weight: bold;
   padding: 3.5%;
 }
-li:hover {
+#main-nav li:hover {
   background-color: rgba(255, 255, 255, 0.5);
   color: black;
   transition: 0.5s;
@@ -61,6 +61,7 @@ li:hover {
 }
 .about-info { top: 40%; }
 .contact-info { top: 30%; }
+.menu-info { top: 20%; }
 input {
   background-color: transparent;
   border: 1px solid white;
@@ -83,3 +84,8 @@ button {
   opacity: 1;
   padding: 0.5rem;
 }
+.food {
+  float: left;
+  width: 33%;
+}
+.food li { padding-bottom: 1rem; }

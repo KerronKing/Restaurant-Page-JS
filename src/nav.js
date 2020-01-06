@@ -4,7 +4,7 @@ export const nav = (() => {
     nav.id = "main-nav";
     const logo = document.createElement('DIV');
     logo.classList.add('logo');
-    logo.textContent = "KHE";
+    logo.textContent = "KTE";
     const tabs = document.createElement('DIV');
     tabs.id = "tabs";
     nav.appendChild(logo);
