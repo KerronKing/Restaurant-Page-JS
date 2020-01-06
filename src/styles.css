@@ -40,3 +40,8 @@ li:hover {
   color: black;
   transition: 0.5s;
 }
+.info {
+  border: 2px solid white;
+  color: white;
+  transition: 3s ease-in-out;
+}
