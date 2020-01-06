@@ -1,4 +1,5 @@
 import nav from './nav';
+import './styles.css';
 import defaultContent from './default';
 import aboutTab from './about';
 import contactTab from './contact';
